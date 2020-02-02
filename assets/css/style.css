@@ -1,105 +1,71 @@
-/**
- * Float Layout 
- **/
-
- * {
-  box-sizing: border-box;
-  text-align: center;
-  margin: auto;
-}
 
   body {
-    font-family: Georgia, Times, "Times New Roman", serif;
-    font-size: 24px;
-    line-height: 32px;
-    color: #777777;
-    background-image: url("assets/images/tree.png");
-    width: 960px;
-    font-size: 18px;
+    background:url(trees.png); 
+    height: 500px; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    
   }
   
   header {
-    padding: 20px;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    width: 220px;
     color: #777;
     background:#ffffff;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    height: 50px;
+    width: 100%;
   }
 
-  nav {
-    padding: 20px;
-    margin-bottom: 20px;
-    color: #777;
-    background: #ebebeb;  
+  nav{
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 20px;
+    color: #777777; 
   }
   
+  a{
+    text-decoration: none;
+  }
+
   section {
     padding: 20px;
-    margin-bottom: 20px;
+    height: 450px;
+    color: #4aaaa5;
+    background:#ffffff;
+    width: 960px;
+    margin-left: 445px;
+  }
+  
+  h1 {
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 445px;
+    margin-right: 1200px;
+    position: relative;
+    color: #ffffff;
+    background:#4aaaa5;
+    height: 50px;
+  }
+
+  h2{
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 444px;
+    margin-bottom:20px;
+    position: relative;
     color: #4aaaa5;
     background:#ffffff;
   }
-  
-  #section {
-    float: left;
-    padding: 20px;
-    height: 280px;
-    color: #777;
-    background: #ebebeb;
-    width: 495px;
-  }
-  
-  #aside {
-    float: left;
-    padding: 20px;
-    height: 280px;
-    margin-left: 20px;
-    color: #777;
-    background:#ebebeb;
-    width: 445px;
-  }
-  #article {
-    padding: 20px;
-    margin-top: 20px;
-    margin-left: -10px;
-    margin-right: -10px;
-    height: 200px;
-    color: #ebebeb;
-    background:#777;
-  }
-  
-  #h1 {
-    margin-top: 10px;
-    margin-bottom:10px;
-    overflow: auto;
-    padding: 10px;
-    color: #777;
-    background:#4aaaa5;
-  }
-  
-  #paragraph {
-    padding: 10px;
-    color: #777;
-    background:#ebebeb;
-  }
-  
+
   footer {
     padding: 20px;
     background: #666666;
-    clear: both;
+    
   }
-  button {
-    background-color: #ffffff;
-    border: none;
-    color: #777777;
-    padding: 20px 34px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 20px;
-    margin: 4px 2px;
-    cursor: pointer;
-    }
+
+  
