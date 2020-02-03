@@ -16,7 +16,7 @@
     background:#ffffff;
     border-bottom-width: 2px;
     border-bottom-style: solid;
-    border-color: #dddddd;
+    border-color: #cccccc;
     width: 100%;
     overflow: auto;
   }
@@ -30,10 +30,6 @@
     margin: 0 auto;
   }
 
-  nav{
-   
-  }
-
  .topnav a {
       
       padding-left: 10px;
@@ -42,17 +38,18 @@
       color: #777777;
       text-align: center;
       text-decoration: none;
-      font-size: 24px;
+      font-size: 15px;
       height: 100px;
   }
 
-  section {
+  #about {
     padding: 20px;
-    height: 960px;
+    height: 580px;
     color: #4aaaa5;
     background:#ffffff;
-    width: 960px;
-    margin-left: 445px;
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
     margin-top: 20px;
     margin-bottom: 40px;
   }
@@ -60,7 +57,7 @@
   #logo {
     float:left;
     font-family: Georgia, Times, "Times New Roman", serif;
-    font-size: 25px;
+    font-size: 24px;
     font-weight: bold;
     text-align: center;
     width: 240px;
@@ -72,16 +69,25 @@
   h2{
     border-bottom-width: 2px;
     border-bottom-style: solid;
+    border-color: #dddddd;
     font-family: Georgia, Times, "Times New Roman", serif;
     font-size: 24px;
     font-weight: bold;
+    line-height: 50px;
+    height: 70px;
     text-align: left;
     margin-bottom:20px;
     position: relative;
     color: #4aaaa5;
     background:#ffffff;
   }
-
+  .mainimage{
+    float: left;
+    width: 220px;
+    height: 180px;
+    margin: 0 auto;
+    margin-right: 10px;
+  }
   footer {
     background:#666666;
     border-top-width: 2px;
@@ -118,14 +124,16 @@
   }
   
   .container {
+    float: center;
     border-radius: 5px;
     background-color: #ffffff;
     padding: 10px;
     height: 550px;
     color: #4aaaa5;
     background:#ffffff;
-    width: 960px;
-    margin-left: 445px;
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
     margin-top: 20px;
     margin-bottom: 20px;
   }
@@ -149,4 +157,15 @@
       margin-top: 0;
     }
   }
-  
+#profolio{
+  padding: 20px;
+  height: 720px;
+  color: #4aaaa5;
+  background:#ffffff;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
