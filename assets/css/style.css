@@ -31,14 +31,13 @@
   }
 
  .topnav a {
-      
       padding-left: 10px;
       line-height: 100px;
       float: right;
       color: #777777;
       text-align: center;
       text-decoration: none;
-      font-size: 15px;
+      font-size: 20px;
       height: 100px;
   }
 
@@ -81,16 +80,24 @@
     color: #4aaaa5;
     background:#ffffff;
   }
+
   .mainimage{
     float: left;
     width: 220px;
-    height: 180px;
+    height: 220px;
     margin: 0 auto;
     margin-right: 10px;
   }
+
+  p{
+    color: #777777;
+    line-height: 40px;
+  }
+
   footer {
+    border-top: 8px solid #4aaaa5;
     background:#666666;
-    border-top-width: 2px;
+    border-top-width: 8px;
     border-color:#4aaaa5;
     border-top-style: solid;
     height: 50px;
@@ -99,7 +106,6 @@
     left: 0;
     bottom: 0;
     text-align: center
-    
   }
 
   input[type=text], select, textarea {
@@ -157,6 +163,7 @@
       margin-top: 0;
     }
   }
+
 #profolio{
   padding: 20px;
   height: 720px;
@@ -168,32 +175,26 @@
   margin-top: 20px;
   margin-bottom: 20px;
 }
-.image{
-    font-family: Arial', 'Helvetica Neue, Helvetica, sans-serif;
-    background-color: #ffffff; 
-    color: #777777;
-    overflow: hidden;
-    width: 100%;
-    max-width: 650px;
-    margin: 0 auto;
-    line-height: 100px;
+
+.project{
     float: left;
-    font-size: 15px;
-    height: 600px;
+    margin: 0 auto;
     position: relative;
+    margin-right: 20px;
+    line-height: 100px;
 }
-.image img{
-  padding-right: 20px;
-  position: relative;
-  text-align: center;
-}
-.text-block{
-  position: absolute;
-  right: 20px;
-  background-color: black;
-  color: white;
-  padding-left: 20px;
-  padding-right: 20px;
-  bottom: 8px;
-  left: 16px;
-}
+
+
+.project h3 {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 0;
+    font-weight: 300;
+    line-height: 30px;
+    color: #ffffff;
+    text-align: center;
+    background: #4aaaa5;
+    border-bottom: 0;
+  }
